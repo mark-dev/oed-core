@@ -1,4 +1,4 @@
-package interfaces;
+package oed.interfaces;
 
 /**
  * Created with IntelliJ IDEA.

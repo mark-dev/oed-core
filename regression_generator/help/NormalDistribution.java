@@ -1,4 +1,4 @@
-package regression_generator.help;
+package oed.regression_generator.help;
 
 
 //Нормальное распределение

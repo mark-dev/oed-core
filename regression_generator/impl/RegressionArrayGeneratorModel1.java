@@ -1,4 +1,4 @@
-package regression_generator.impl;
+package oed.regression_generator.impl;
 
 import interfaces.IArrayGenerator;
 import regression_generator.help.DistributionCalcHelper;

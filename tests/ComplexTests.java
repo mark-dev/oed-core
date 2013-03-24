@@ -1,4 +1,4 @@
-package tests;
+package oed.tests;
 
 import analyze.impl.AnalysisInversionMethod;
 import analyze.impl.AnalysisSeriesMethod;
