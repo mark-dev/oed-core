@@ -1,4 +1,4 @@
-package analyze.impl;
+package oed.analyze.impl;
 
 import interfaces.IAnalysisDependenceMethod;
 
