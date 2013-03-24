@@ -1,6 +1,6 @@
 package oed.regression_generator.impl;
 
-import interfaces.IArrayGenerator;
+import oed.interfaces.IArrayGenerator;
 
 /**
  * Created with IntelliJ IDEA.

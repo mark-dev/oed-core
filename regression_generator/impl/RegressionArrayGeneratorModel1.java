@@ -1,8 +1,8 @@
 package oed.regression_generator.impl;
 
-import interfaces.IArrayGenerator;
-import regression_generator.help.DistributionCalcHelper;
-import regression_generator.help.NormalDistribution;
+import oed.interfaces.IArrayGenerator;
+import oed.regression_generator.help.DistributionCalcHelper;
+import oed.regression_generator.help.NormalDistribution;
 
 import java.io.File;
 import java.io.FileNotFoundException;

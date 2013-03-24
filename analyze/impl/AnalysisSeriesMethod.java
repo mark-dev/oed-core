@@ -1,6 +1,6 @@
 package oed.analyze.impl;
 
-import interfaces.IAnalysisDependenceMethod;
+import oed.interfaces.IAnalysisDependenceMethod;
 
 import java.util.Arrays;
 

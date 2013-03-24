@@ -1,11 +1,11 @@
 package oed.tests;
 
-import analyze.impl.AnalysisInversionMethod;
-import analyze.impl.AnalysisSeriesMethod;
+import oed.analyze.impl.AnalysisInversionMethod;
+import oed.analyze.impl.AnalysisSeriesMethod;
 import junit.framework.Assert;
 import org.junit.Test;
-import regression_generator.help.DistributionCalcHelper;
-import regression_generator.help.NormalDistribution;
+import oed.regression_generator.help.DistributionCalcHelper;
+import oed.regression_generator.help.NormalDistribution;
 
 /**
  * Created with IntelliJ IDEA.
