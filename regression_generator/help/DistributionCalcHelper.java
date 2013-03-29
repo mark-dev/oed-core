@@ -106,18 +106,19 @@ public class DistributionCalcHelper {
         }
     }
     //Разбивает массив original на части размером parts
-    public  static ArrayList<double[]> splitByParts(double[] original,int parts){
+    private  static ArrayList<double[]> splitByParts(double[] original,int parts){
         if(original.length % parts !=0){
             throw new IllegalArgumentException("невозможно разделить массив на равные части(не делится нацело)");
         }
         ArrayList<double[]> result = new ArrayList<double[]>();
-        for(int i=0;i<original.length;i = i + parts){
-            //Копируем в tempArray начиная с позиции 0
-            //массив original начиная с индекса i
-            //длинной parts
-            double[] tempArray = new double[parts];
-            System.arraycopy(original, i, tempArray, 0, parts);
-            result.add(tempArray);
+        int step = original.length/parts;
+        for(int i=0;i<parts;i++){
+        //Копируем в tempArray начиная с позиции 0
+        //массив original начиная с индекса i
+        //длинной step
+         double[] tempArray = new double[step];
+         System.arraycopy(original, i*step, tempArray, 0, step);
+         result.add(tempArray);
         }
         return result;
     }
