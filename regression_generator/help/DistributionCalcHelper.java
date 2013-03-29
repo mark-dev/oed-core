@@ -106,7 +106,7 @@ public class DistributionCalcHelper {
         }
     }
     //Разбивает массив original на части размером parts
-    private  static ArrayList<double[]> splitByParts(double[] original,int parts){
+    public  static ArrayList<double[]> splitByParts(double[] original,int parts){
         if(original.length % parts !=0){
             throw new IllegalArgumentException("невозможно разделить массив на равные части(не делится нацело)");
         }
